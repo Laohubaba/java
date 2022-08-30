@@ -1,0 +1,52 @@
+package PK1;
+
+public class helleworld {
+
+	public static void main(String[] args) {
+	    String name = "胡文卓";
+	    String Num = "21885731";
+	    byte age = 19;
+	    float height = 173f;//float小数后加f
+	    float weight = 55f;
+	    char sex = '男';//cahr类型用单引号
+	    String hometown = "云南文山";
+	    String hobby = "skateboarding";    
+		System.out.println(name);
+        System.out.println(Num);
+        System.out.println(age);
+        System.out.println(height);
+        System.out.println(weight);
+        System.out.println(sex);
+        System.out.println(hometown);
+        System.out.println(hobby);
+	}
+}
+
+
+
+package PK1;
+
+public class 作业1 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("This is my frist java Application!"+"\n你好，java！");
+		System.out.println("************************");
+	
+		
+		
+		System.out.println("\t1\t1a\t1aa");
+		System.out.println("\t1\t2\t3");
+		System.out.println("\t1\t1a\t1aa");
+		
+		System.out.println("   *   ");
+		System.out.println("  ***  ");
+		System.out.println(" ***** ");
+		System.out.println("*******");
+		
+		System.out.println("---------");
+		System.out.println("\"Hello  World!\"");
+		System.out.println("---------");
+	}
+
+}
