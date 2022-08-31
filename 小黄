@@ -1,0 +1,15 @@
+package PK1;
+
+public class 小黄 {
+
+	public static void main(String[] args) {
+	String skateboard = "一块滑板";
+	byte len = 80;
+	double  height = 10.3d;
+	System.out.println(skateboard+"的信息");
+	System.out.println("*****************");
+	System.out.println("长："+len+"cm");
+	System.out.println("高："+height+"cm");
+	}
+
+}
