@@ -1,0 +1,28 @@
+public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+	    System.out.println("1  矩形      2 圆");
+	    System.out.print("请选择图形：");
+	    Scanner sc=new Scanner(System.in);
+	    int a=sc.nextInt();
+	    switch(a){
+	    case 1:
+	        System.out.print("请输入矩形的宽：");
+	        double a_wight=sc.nextDouble();
+	        System.out.println();
+	        System.out.print("请输入矩形的高：");
+	        double a_height=sc.nextDouble();
+	        System.out.println();
+	        System.out.println("该矩形的面积为："+(a_wight*a_height));
+	        break;
+	    case 2:
+	        System.out.print("请输入圆形的半径：");
+	        double a_r=sc.nextDouble();
+	        System.out.println();
+	        System.out.println("该圆形的面积为："+(3.14*a_r*a_r));
+	        break;
+	        default:
+	            System.out.println("没有该图形！！！请重新运行再输入！");
+	}
+
+}
+}
