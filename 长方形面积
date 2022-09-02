@@ -1,0 +1,17 @@
+package PK1;
+import java.util.Scanner;
+public class rectangle {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		System.out.println("请输入长方形的长:");
+		//创建Scanner类对象in
+		Scanner in = new Scanner(System.in);
+		float length = in.nextFloat();
+		System.out.println("请输入长方形的宽:");
+		float width = in.nextFloat();
+		float area = length*width;
+		System.out.println("该长方形的面积为："+area+"平方米");
+	}
+
+}
