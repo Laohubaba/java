@@ -1,0 +1,107 @@
+package PK1;
+import java.util.Scanner;
+public class 判断是否为闰年 {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根	
+		      //  System.out.println("请输入年份:");
+		      // int year;//接收输入的年份
+		       // Scanner ai = new Scanner(System.in);
+		        //year = ai.nextInt();
+		        //if( year < 0  ||  year > 3000)
+		        {
+		           // System.out.println("年份有误！");
+		        }
+		        //if(year %4 == 0  &&  year %100 != 0  ||  year %400 == 0 )
+		        {
+		           // System.out.println(year+"是闰年");
+		        }
+		        //else
+		        {
+		        	//System.out.println(year+"是平年");
+                }
+		        
+		        
+		        //System.out.println("***************************");
+		       // Scanner ai = new Scanner(System.in);
+		       // System.out.println("请输五位整数：");
+		        //int num = ai.nextInt();
+		       // if (num >= 10000 && num <= 99999)
+		        {
+		          //  if (num % 10 == num / 10000 && num / 10 % 10 == num / 1000 % 10)
+		            {
+		                //System.out.println("该数是一个回文数");
+		            } 
+		           // else
+		            {
+		               // System.out.println("该数不是一个回文数");
+		            }
+		        }
+		       // else 
+		        {
+		           // System.out.println("请输入输入错误");
+		        }
+		       // System.out.println("****************************");
+	
+		       // System.out.println("***************************");
+		       // Scanner ai = new Scanner(System.in);
+				
+				//System.out.println("请输入整数");
+				
+				//int num = ai.nextInt();
+				
+				//if(num % 2 == 0)
+				{
+					//System.out.println(num+"为偶数。");
+				}
+				//else
+				{
+					//System.out.println(num+"为奇数");
+				}
+				//System.out.println("***************************");
+				
+				
+				//System.out.println("***************************");
+				// System.out.println("请输入一个整数：");
+				   // Scanner ai = new Scanner(System.in);
+				   // int number = ai.nextInt();
+				   // if(number==0)
+				    {
+				       // System.out.println("石头");
+				    }
+				   // else if(number==1)
+				    {
+				       // System.out.println("剪刀");
+				    }
+				    //else if(number==2)
+				    {
+				       // System.out.println("布");
+				    }
+				   // else
+				    {
+				        //System.out.println("错误");
+				        }
+				    //System.out.println("***************************");
+				    
+				    
+				    System.out.println("***************************");
+				    System.out.println("你爱我吗？");
+				    Scanner ai = new Scanner(System.in);
+				    String choice = ai.next();
+				    if(choice.equals("yes"))
+				    {
+				        System.out.println("你是爱我的");
+				    }
+				    else if(choice.equals("no"))
+				    {
+				        System.out.println("原来你不爱我");
+				    }
+				    else
+				    {
+				        System.out.println("你到底是爱还是不爱，自己也不清楚");
+				       }
+				    System.out.println("***************************");
+	}
+	}
+
+
