@@ -1,0 +1,20 @@
+package PK1;
+
+public class Work3 {
+
+	public static void main(String[] args) {
+		int a, b ,c;
+		for(int i =100; i < 1000; i++)
+		{
+			a = i % 10;  //个位上的数
+			b = i / 10 % 10;  //十位上的数
+			c = i/100;
+			if(a*a*a + b*b*b +c*c*c ==i)   //百位上的数
+			{
+				System.out.println("水仙花数为："+i);
+			}
+		}
+
+	}
+
+}
