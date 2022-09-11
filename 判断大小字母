@@ -1,0 +1,26 @@
+package PK1;
+import java.util.Scanner;
+public class Work1 {
+
+	public static void main(String[] args) {
+		System.out.println("**************************");
+		Scanner ai = new Scanner(System.in);
+        System.out.println("请输入一个字母：");
+        char ch = ai.nextLine().charAt(0);
+        int letter = ch;
+        if( letter >= 65 && letter <= 90)
+        {
+        	
+        	letter=(char)(letter+32);
+        	System.out.println("'"+ch+"'"+"的小写字母为："+(char) letter);
+        }
+        else
+        {
+        	System.out.println("字母"+"'"+ch+"'"+"就是小写字母");	
+        }
+        
+        
+        System.out.println("\n**************************");
+	}
+
+}
