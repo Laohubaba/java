@@ -1,0 +1,32 @@
+package chapter02;
+
+public class Skate {
+	 private String PingPai;
+	    private double Price;
+	    
+	    public void setPingPai(String PingPai) {
+	    	this.PingPai=PingPai;
+	    }
+	    public String getPingPai() {
+	    	return PingPai;
+	    }
+	    public void setPrice(double Price) {
+	    	this.Price=Price;
+	    	}
+	    
+	    public double getPrice() {
+	    	return Price;
+	    }
+	    void show() {
+	 	   System.out.println("滑板的品牌是："+getPingPai()+"的价格是："+getPrice());
+	    }
+}
+class TestSkate{
+	public static void main(String[] args) {
+		Skate IN = new Skate();
+		IN.setPingPai("independent");
+		IN.setPrice(100);
+		IN.show();
+	}
+}
+		
